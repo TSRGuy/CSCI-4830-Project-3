@@ -1,0 +1,36 @@
+[OPTIONS]
+Compiled file=HDAL_API.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=HDAL API
+
+[WINDOWS]
+main="HDAL API","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x387e,,,,,,,,0
+
+[FILES]
+index.html
+hdl_8h-source.html
+hdl_constants_8h-source.html
+hdl_errors_8h-source.html
+hdlu_8h-source.html
+hdl_8h.html
+hdl_constants_8h.html
+hdl_errors_8h.html
+hdlu_8h.html
+deprecated.html
+files.html
+globals.html
+globals_func.html
+globals_type.html
+globals_enum.html
+globals_eval.html
+pages.html
+tabs.css
+tab_b.gif
+tab_l.gif
+tab_r.gif

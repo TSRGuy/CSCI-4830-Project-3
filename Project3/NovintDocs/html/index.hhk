@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html"><param name="Name" value="hdl.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#d68336c079499431f7a7ff9ecdeed2fa"><param name="Name" value="HDL_BUILD_VERSION"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#55a10ddafd019ad39af14abed9038751"><param name="Name" value="HDL_MAJOR_VERSION"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#b0c5002fe1d451aa27b90752b0b99689"><param name="Name" value="HDL_MINOR_VERSION"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#412a9bfd4d36930fba8ff542e73bb4db"><param name="Name" value="hdlCountDevices"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#b5b30b451a771b070a359cd73c0163cf"><param name="Name" value="hdlCreateServoOp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#629efca66c8290b648e6cf4a0d166c09"><param name="Name" value="hdlDestroyServoOp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#0b2405822c2d02416863a76987f32b87"><param name="Name" value="HDLDeviceHandle"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#3c02b6979d027f02fdcddd3317cdf673"><param name="Name" value="hdlDeviceModel"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#82aeed837c2f57161ea53b9c0add548c"><param name="Name" value="hdlDeviceWorkspace"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#1c1f585b8381331393b6166b5ee7f62e"><param name="Name" value="hdlGetError"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#63a2b5a774aa9f01eb9d748b3d55e8ad"><param name="Name" value="hdlGetState"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#484b77fc28537ecbf944724d491b4131"><param name="Name" value="hdlGetVersion"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#94c6655c857d69d9fc467096b3da05df"><param name="Name" value="hdlInitDevice"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#a0b3f5fe47457f3d10ea9f576f104bbc"><param name="Name" value="hdlInitIndexedDevice"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#cf1a418e6ad1914d0c73bcc53b137fc6"><param name="Name" value="hdlInitNamedDevice"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#fc171bf730a9b3ab2e97c0051ad05a2a"><param name="Name" value="hdlMakeCurrent"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#bf3e4df6d0a79800337ebe8247ad843f"><param name="Name" value="HDLServoOp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#89c19b6e1ded3be7a711890edca6194e"><param name="Name" value="hdlSetToolForce"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#a91f2b8bf28088b3582171e00470d108"><param name="Name" value="hdlStart"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#f50f51dad211db3b5a9e6d36fe77c99d"><param name="Name" value="hdlStop"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#f32cb8d9a384bfb947e65c43cf509cd7"><param name="Name" value="hdlToolButton"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#91be1f92a2b3361090d6cc4630eeb75c"><param name="Name" value="hdlToolButtons"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#230dfccb0ec6dcf24b8493e27c75b84c"><param name="Name" value="hdlToolPosition"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#7d9b14b20573b23688f1787b3a41f464"><param name="Name" value="hdlUninitDevice"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#d68336c079499431f7a7ff9ecdeed2fa"><param name="Name" value="HDL_BUILD_VERSION"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae889f3fa0c20e8a944a3f7f7399174df384"><param name="Name" value="HDL_DEVICE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88652d36308ab78ec8370f4f44bf3a0d20"><param name="Name" value="HDL_DEVICE_COMMS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae885166c191f01a436ed0608a03d337d188"><param name="Name" value="HDL_DEVICE_OS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88f3a2044e8e10dcd1e06ec90b179708db"><param name="Name" value="HDL_DEVICE_SDK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88e4a601b4256fb23419b000ac17bca6b6"><param name="Name" value="HDL_GRIP"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88062f34313f60ea25dc9983ee1790ae68"><param name="Name" value="HDL_HDAL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#55a10ddafd019ad39af14abed9038751"><param name="Name" value="HDL_MAJOR_VERSION"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#b0c5002fe1d451aa27b90752b0b99689"><param name="Name" value="HDL_MINOR_VERSION"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#4c6147f5c1530b2a2e15693f30647ccc"><param name="Name" value="HDL_VERSION_INFO_TYPE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88"><param name="Name" value="HDL_VERSION_REQUEST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html"><param name="Name" value="hdlConstants.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae889f3fa0c20e8a944a3f7f7399174df384"><param name="Name" value="HDL_DEVICE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88652d36308ab78ec8370f4f44bf3a0d20"><param name="Name" value="HDL_DEVICE_COMMS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae885166c191f01a436ed0608a03d337d188"><param name="Name" value="HDL_DEVICE_OS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88f3a2044e8e10dcd1e06ec90b179708db"><param name="Name" value="HDL_DEVICE_SDK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88e4a601b4256fb23419b000ac17bca6b6"><param name="Name" value="HDL_GRIP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88062f34313f60ea25dc9983ee1790ae68"><param name="Name" value="HDL_HDAL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#4c6147f5c1530b2a2e15693f30647ccc"><param name="Name" value="HDL_VERSION_INFO_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_constants_8h.html#68966821b336319acc1a18cd01c4ae88"><param name="Name" value="HDL_VERSION_REQUEST"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#412a9bfd4d36930fba8ff542e73bb4db"><param name="Name" value="hdlCountDevices"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#b5b30b451a771b070a359cd73c0163cf"><param name="Name" value="hdlCreateServoOp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#629efca66c8290b648e6cf4a0d166c09"><param name="Name" value="hdlDestroyServoOp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#0b2405822c2d02416863a76987f32b87"><param name="Name" value="HDLDeviceHandle"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#3c02b6979d027f02fdcddd3317cdf673"><param name="Name" value="hdlDeviceModel"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#82aeed837c2f57161ea53b9c0add548c"><param name="Name" value="hdlDeviceWorkspace"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_errors_8h.html#86dfdcde41ee8dac64d7f46eab1fe5b2"><param name="Name" value="HDLError"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_errors_8h.html"><param name="Name" value="hdlErrors.h"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#1c1f585b8381331393b6166b5ee7f62e"><param name="Name" value="hdlGetError"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#63a2b5a774aa9f01eb9d748b3d55e8ad"><param name="Name" value="hdlGetState"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#484b77fc28537ecbf944724d491b4131"><param name="Name" value="hdlGetVersion"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#94c6655c857d69d9fc467096b3da05df"><param name="Name" value="hdlInitDevice"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#a0b3f5fe47457f3d10ea9f576f104bbc"><param name="Name" value="hdlInitIndexedDevice"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#cf1a418e6ad1914d0c73bcc53b137fc6"><param name="Name" value="hdlInitNamedDevice"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#fc171bf730a9b3ab2e97c0051ad05a2a"><param name="Name" value="hdlMakeCurrent"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#bf3e4df6d0a79800337ebe8247ad843f"><param name="Name" value="HDLServoOp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#89c19b6e1ded3be7a711890edca6194e"><param name="Name" value="hdlSetToolForce"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#a91f2b8bf28088b3582171e00470d108"><param name="Name" value="hdlStart"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#f50f51dad211db3b5a9e6d36fe77c99d"><param name="Name" value="hdlStop"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#f32cb8d9a384bfb947e65c43cf509cd7"><param name="Name" value="hdlToolButton"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#91be1f92a2b3361090d6cc4630eeb75c"><param name="Name" value="hdlToolButtons"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#230dfccb0ec6dcf24b8493e27c75b84c"><param name="Name" value="hdlToolPosition"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdlu_8h.html"><param name="Name" value="hdlu.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdlu_8h.html#dbab3a3f56e8a71c87a8092c55e70920"><param name="Name" value="hdluGenerateHapticToAppWorkspaceTransform"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="hdlu_8h.html#7b4a311335fa569769436b96cf2ea388"><param name="Name" value="hdluGetSystemTime"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdlu_8h.html#dbab3a3f56e8a71c87a8092c55e70920"><param name="Name" value="hdluGenerateHapticToAppWorkspaceTransform"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdlu_8h.html#7b4a311335fa569769436b96cf2ea388"><param name="Name" value="hdluGetSystemTime"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hdl_8h.html#7d9b14b20573b23688f1787b3a41f464"><param name="Name" value="hdlUninitDevice"></OBJECT>
+</UL>
