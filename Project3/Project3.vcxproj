@@ -37,19 +37,30 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>.\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>.\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\includes;$(OgreInclude);$(Boost);$(IncludePath)</IncludePath>
+    <LibraryPath>$(Boost)\lib;.\lib;$(OgreLibDebug);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalOptions>/D "WIN32" %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/D "WIN32" /D "_DEBUG" %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>hdl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>hdl.lib;OgreMain_d.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)\dll\ $(OutDir)
+copy $(ProjectDir)\plugins.cfg $(OutDir)
+copy $(ProjectDir)\resources.cfg $(OutDir)
+
+mkdir $(OutDir)\Meshes\
+copy $(ProjectDir)\Meshes\ $(OutDir)\Meshes\
+
+mkdir $(OutDir)\Textures\
+copy $(ProjectDir)\Meshes\ $(OutDir)\Textures\</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -65,11 +76,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="GraphicsManager.h" />
     <ClInclude Include="haptics.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GameTimer.cpp" />
+    <ClCompile Include="GraphicsManager.cpp" />
     <ClCompile Include="haptics.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Material.material" />
+    <None Include="plugins.cfg" />
+    <None Include="resources.cfg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

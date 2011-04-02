@@ -1,0 +1,13 @@
+material Box
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture MRAMOR6X6.jpg
+			}
+		}
+	}
+}
