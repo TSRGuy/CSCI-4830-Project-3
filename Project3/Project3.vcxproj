@@ -37,7 +37,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>.\includes;$(OgreInclude);$(Boost);$(IncludePath)</IncludePath>
+    <IncludePath>.\includes;$(OgreInclude);$(Boost);$(BULLETSRC);$(IncludePath)</IncludePath>
     <LibraryPath>$(Boost)\lib;.\lib;$(OgreLibDebug);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -48,7 +48,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>hdl.lib;OgreMain_d.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>BulletCollision.lib;BulletDynamics.lib;BulletSoftBody.lib;LinearMath.lib;hdl.lib;OgreMain_d.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy $(ProjectDir)\dll\ $(OutDir)
@@ -76,15 +76,50 @@ copy $(ProjectDir)\Meshes\ $(OutDir)\Textures\</Command>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BtOgreExtras.h" />
+    <ClInclude Include="BtOgreGP.h" />
+    <ClInclude Include="BtOgrePG.h" />
+    <ClInclude Include="ConvexDecomposition\bestfit.h" />
+    <ClInclude Include="ConvexDecomposition\bestfitobb.h" />
+    <ClInclude Include="ConvexDecomposition\cd_hull.h" />
+    <ClInclude Include="ConvexDecomposition\cd_vector.h" />
+    <ClInclude Include="ConvexDecomposition\cd_wavefront.h" />
+    <ClInclude Include="ConvexDecomposition\concavity.h" />
+    <ClInclude Include="ConvexDecomposition\ConvexBuilder.h" />
+    <ClInclude Include="ConvexDecomposition\ConvexDecomposition.h" />
+    <ClInclude Include="ConvexDecomposition\fitsphere.h" />
+    <ClInclude Include="ConvexDecomposition\float_math.h" />
+    <ClInclude Include="ConvexDecomposition\meshvolume.h" />
+    <ClInclude Include="ConvexDecomposition\planetri.h" />
+    <ClInclude Include="ConvexDecomposition\raytri.h" />
+    <ClInclude Include="ConvexDecomposition\splitplane.h" />
+    <ClInclude Include="ConvexDecomposition\vlookup.h" />
     <ClInclude Include="GameTimer.h" />
     <ClInclude Include="GraphicsManager.h" />
     <ClInclude Include="haptics.h" />
+    <ClInclude Include="Painter.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BtOgre.cpp" />
+    <ClCompile Include="ConvexDecomposition\bestfit.cpp" />
+    <ClCompile Include="ConvexDecomposition\bestfitobb.cpp" />
+    <ClCompile Include="ConvexDecomposition\cd_hull.cpp" />
+    <ClCompile Include="ConvexDecomposition\cd_wavefront.cpp" />
+    <ClCompile Include="ConvexDecomposition\concavity.cpp" />
+    <ClCompile Include="ConvexDecomposition\ConvexBuilder.cpp" />
+    <ClCompile Include="ConvexDecomposition\ConvexDecomposition.cpp" />
+    <ClCompile Include="ConvexDecomposition\fitsphere.cpp" />
+    <ClCompile Include="ConvexDecomposition\float_math.cpp" />
+    <ClCompile Include="ConvexDecomposition\meshvolume.cpp" />
+    <ClCompile Include="ConvexDecomposition\planetri.cpp" />
+    <ClCompile Include="ConvexDecomposition\raytri.cpp" />
+    <ClCompile Include="ConvexDecomposition\splitplane.cpp" />
+    <ClCompile Include="ConvexDecomposition\vlookup.cpp" />
     <ClCompile Include="GameTimer.cpp" />
     <ClCompile Include="GraphicsManager.cpp" />
     <ClCompile Include="haptics.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Painter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Material.material" />

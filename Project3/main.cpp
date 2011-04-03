@@ -1,6 +1,11 @@
 #include <Ogre.h>
 #include "GraphicsManager.h"
 #include "GameTimer.h"
+#include "Painter.h"
+
+#include "BtOgrePG.h"
+#include "BtOgreGP.h"
+#include "BtOgreExtras.h"
 
 GraphicsManager graphicsManager;
 
@@ -11,9 +16,15 @@ void main(int argc, char *argv[])
 	Ogre::Entity* ObjectEntity = graphicsManager.GetManager()->createEntity("ObjectEntity", "cube.mesh");
 	ObjectEntity->setMaterialName("Box");
 	Ogre::SceneNode* ObjectScene = graphicsManager.GetRootSceneNode()->createChildSceneNode("ObjectScene");
-	ObjectScene->attachObject(ObjectEntity);
+	//ObjectScene->attachObject(ObjectEntity);
 	ObjectScene->setPosition(0, 0, -20);
 	ObjectScene->setScale(.05, .05, .05);
+
+	Painter paint;
+
+	//Debug Drawer
+	BtOgre::DebugDrawer* dbgdraw = new BtOgre::DebugDrawer(graphicsManager.GetRootSceneNode(), paint.getDynamicsWorld());
+	paint.getDynamicsWorld()->setDebugDrawer(dbgdraw);
 
 #pragma region Main Loop
 	//Main Loop
@@ -23,6 +34,9 @@ void main(int argc, char *argv[])
 		double elapsed = timer.getElapsedTimeSec();
 		graphicsManager.RenderFrame(elapsed);
 		Ogre::WindowEventUtilities::messagePump();
+		dbgdraw->step();
+
+		paint.update(elapsed);
 	}
 #pragma endregion
 
