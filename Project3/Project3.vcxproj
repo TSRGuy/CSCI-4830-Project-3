@@ -51,15 +51,15 @@
       <AdditionalDependencies>hdl.lib;OgreMain_d.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy $(ProjectDir)\dll\ $(OutDir)
-copy $(ProjectDir)\plugins.cfg $(OutDir)
-copy $(ProjectDir)\resources.cfg $(OutDir)
+      <Command>copy "$(ProjectDir)\dll\" "$(OutDir)"
+copy "$(ProjectDir)\plugins.cfg" "$(OutDir)"
+copy "$(ProjectDir)\resources.cfg" "$(OutDir)"
 
-mkdir $(OutDir)\Meshes\
-copy $(ProjectDir)\Meshes\ $(OutDir)\Meshes\
+mkdir "$(OutDir)\Meshes\"
+copy "$(ProjectDir)\Meshes\" "$(OutDir)\Meshes\"
 
-mkdir $(OutDir)\Textures\
-copy $(ProjectDir)\Meshes\ $(OutDir)\Textures\</Command>
+mkdir "$(OutDir)\Textures\"
+copy "$(ProjectDir)\Meshes\" "$(OutDir)\Textures\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
